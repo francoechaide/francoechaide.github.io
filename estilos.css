@@ -1,0 +1,119 @@
+
+.portafolio .contenido-portafolio{
+    width: 60%;
+    margin: auto;
+    border-style: solid;
+    border-color: black;
+    margin-top: 40px;
+    background-color: #1e2326;
+    color: white;
+}
+
+/*css encabezado*/
+div#encabezado{
+    display: flex;
+    align-items: center;
+}
+
+div#parrafo{
+    padding-left: 5%;
+    margin-right: 30px;
+    text-indent: 1%;
+}
+
+ img{
+    width: 200px;
+    border-radius: 50%;
+    border-style: solid;
+    padding:5px 5px 5px 5px;
+    display: block;
+}
+/*css comun desde sobre mi hasta contacto*/
+.contenido{
+   
+    max-width: 90%;
+    margin: auto;
+    
+}
+
+.contenido h2{
+    display: flex;
+    justify-content: center;
+    
+}
+/*css sobre mi*/
+
+
+.contenido .fila {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.contenido .fila .columna h3{
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+.contenido .fila .columna ul{
+    list-style: none;
+    padding: 0;
+}
+.contenido .fila .columna ul li{
+    margin: 12px 0;
+    
+}
+
+.contenido .fila .columna ul li strong{
+    display: inline-block;
+    color: blueviolet;
+    width: 130px;
+}
+
+
+.contenido .fila .columna .contIntereses{
+    display: flex;
+    
+}
+.contenido .fila .columna .contIntereses .interes{
+    width: 65px;
+    height: 65px;
+    background-color: #252A2E;
+    border-radius: 15px;
+    margin: 0 8px 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.contenido .fila .columna .contIntereses .interes:hover{
+    background-color:blueviolet ;
+
+}
+
+.contenido .fila .columna .contIntereses .interes i{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/*css experiencia*/
+
+.contenido .contenido-experiencia{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*css contactos*/
+
+
+.contenido .contenido-contactos .imgynom div{
+    padding-bottom: 3%;
+
+}
+.contenido .contenido-contactos .imgynom div span{
+    padding-left: 1%;
+}
